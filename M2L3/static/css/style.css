@@ -1,0 +1,33 @@
+:root {
+    --background-color: #191c32;
+    --button-border-color: aqua;
+    --text-color: #fff;    
+}
+
+*    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+body {
+    background-color: var(--background-color);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 80px;
+    background-color: #0c07473f;
+}
+
+.subtitulo {
+    text-align: left;
+    font-size: 30px;
+    padding: 15px 50px;
+}
+
+.list-img img {
+    text-align: start;
+    padding: 40px 150px;
+}
